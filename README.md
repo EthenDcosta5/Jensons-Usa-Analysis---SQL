@@ -1,6 +1,3 @@
-Here’s a `README.md` file for your GitHub repository, based on the SQL queries you've provided:
-
-```markdown
 # Jensons-USA SQL Data Analysis
 
 ## Overview
@@ -35,7 +32,7 @@ This repository contains SQL queries designed to perform data analysis for Jenso
 ## SQL Queries
 
 ### Store and Product Sales Analysis
-  ```
+
 - **Total Products Sold by Store**:
   ```sql
   SELECT 
