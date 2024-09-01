@@ -35,7 +35,7 @@ This repository contains SQL queries designed to perform data analysis for Jenso
 ## SQL Queries
 
 ### Store and Product Sales Analysis
-
+  ```
 - **Total Products Sold by Store**:
   ```sql
   SELECT 
@@ -46,7 +46,7 @@ This repository contains SQL queries designed to perform data analysis for Jenso
       JOIN orders ON order_items.order_id = orders.order_id
       JOIN stores ON stores.store_id = orders.store_id
   GROUP BY stores.store_name;
-  ```
+
 
 - **Cumulative Sum of Quantities Sold Over Time**:
   ```sql
